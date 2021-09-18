@@ -1,0 +1,17 @@
+banks:
+    listbank:
+        - bankcode: VNPAY
+          privateKey: ghffffffffff
+          ips:
+
+        - bankcode: BIDV
+          privateKey: jjjjjjjj
+          ips:
+
+        - bankcode: VIETCOMBANK
+          privateKey: hhhhhhhhh
+          ips:
+
+        - bankcode: TPBANK
+          privateKey: kkkkkkkk
+          ips:
