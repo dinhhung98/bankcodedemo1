@@ -4,6 +4,8 @@ import com.vnpay.demo1.dto.BankRequest;
 import com.vnpay.demo1.dto.BankResponse;
 import com.vnpay.demo1.module.BankCheck;
 import com.vnpay.demo1.service.BankService;
+import com.vnpay.demo1.util.ResponseCode;
+import com.vnpay.demo1.util.ResponseMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,18 +25,18 @@ public class BankControler {
     public ResponseEntity<BankResponse> getReponse(@Valid @RequestBody BankRequest bankRequest) throws ParseException {
         BankCheck bankCheck = bankService.isBankCode(bankRequest.getBankCode());
         if (!bankCheck.isStatus()) {
-            return ResponseEntity.badRequest().body(new BankResponse("02","Bank code not exist"));
+            return ResponseEntity.badRequest().body(new BankResponse(ResponseCode.BANK_CODE_ERROR, ResponseMessage.MSG_BANK_CODE_ERROR));
         }
-        if (!bankService.isPayDate(bankRequest.getPayDate())){
-            return ResponseEntity.badRequest().body(new BankResponse("01","Pay Date not correct"));
+        if (!bankService.isPayDate(bankRequest.getPayDate())) {
+            return ResponseEntity.badRequest().body(new BankResponse(ResponseCode.DATA_REQUEST_ERROR, ResponseMessage.MSG_PAY_DATE_ERROR));
         }
-        boolean bankCheckSum = bankService.isCheckSum(bankRequest,bankCheck.getPrivateKey());
+        boolean bankCheckSum = bankService.isCheckSum(bankRequest, bankCheck.getPrivateKey());
         if (!bankCheckSum) {
-            return ResponseEntity.badRequest().body(new BankResponse("03","check sum not correct"));
+            return ResponseEntity.badRequest().body(new BankResponse(ResponseCode.CHECK_SUM_ERROR, ResponseMessage.MSG_CHECK_SUM_ERROR));
         }
-        if (!bankService.saveAccount(bankRequest.getBankCode(),bankRequest.getTokenKey(),bankRequest.toString())){
-            return ResponseEntity.badRequest().body(new BankResponse("04","data can not save"));
+        if (!bankService.saveAccount(bankRequest.getBankCode(), bankRequest.getTokenKey(), bankRequest.toString())) {
+            return ResponseEntity.badRequest().body(new BankResponse(ResponseCode.SAVE_ERROR, ResponseMessage.MSG_SAVE_ERROR));
         }
-        return ResponseEntity.ok(new BankResponse("00","Success"));
+        return ResponseEntity.ok(new BankResponse(ResponseCode.CODE_SUCCESS, ResponseMessage.MSG_SUCCESS));
     }
 }

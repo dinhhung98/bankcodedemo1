@@ -1,0 +1,11 @@
+[INFO ] 2021-09-20 16:24:40.834 [] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-09-20 16:24:40.834 [] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-09-20 16:24:41.228 [] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-09-20 16:24:41.228 [] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 2021-09-20 16:24:41.246 [] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO ] 2021-09-20 16:24:41.530 [] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-09-20 16:24:41.584 [] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 750 ms
+[INFO ] 2021-09-20 16:24:41.947 [] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-09-20 16:24:41.969 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-09-20 16:24:45.931 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-09-20 16:24:45.932 [] DispatcherServlet - Completed initialization in 1 ms

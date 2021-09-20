@@ -5,7 +5,8 @@ import com.vnpay.demo1.config.ConfigBankYaml;
 import com.vnpay.demo1.dto.BankRequest;
 import com.vnpay.demo1.module.Bank;
 import com.vnpay.demo1.module.BankCheck;
-import lombok.extern.log4j.Log4j2;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
@@ -17,12 +18,13 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 @Service
-@Log4j2
 public class BankService {
     @Autowired
     private ConfigBankYaml bankYaml;
     @Autowired
     private JedisPool bankRedis;
+
+    private static Logger log = LogManager.getLogger(BankService.class);
 
     public BankCheck isBankCode(String bankCode) {
         log.info("bank code-{}", bankCode);

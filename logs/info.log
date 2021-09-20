@@ -1,0 +1,6 @@
+[INFO ] 2021-09-20 16:24:40.796 [] Bankcodedemo1Application - Starting Bankcodedemo1Application using Java 1.8.0_302 on Admin with PID 8568 (D:\java code\bankcodedemo\target\classes started by Admin in D:\java code\bankcodedemo)
+[INFO ] 2021-09-20 16:24:40.796 [] Bankcodedemo1Application - No active profile set, falling back to default profiles: default
+[INFO ] 2021-09-20 16:24:41.969 [] Bankcodedemo1Application - Started Bankcodedemo1Application in 1.393 seconds (JVM running for 2.068)
+[INFO ] 2021-09-20 16:24:46.023 [] BankService - bank code-VNPAY
+[INFO ] 2021-09-20 16:24:46.024 [] BankService - Pay Date: Tue Sep 29 11:29:23 ICT 2020
+[INFO ] 2021-09-20 16:24:46.028 [] BankService - Bank Request: bankCode VNPAY, TokenKey-1601353776839FT19310RH6P1, Data-BankRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=a75c035d48385dacf82bc77dab7470e6de136f17dd7ca6f45d5a1c7abe5cbde6, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
