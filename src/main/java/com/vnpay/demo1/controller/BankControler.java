@@ -1,8 +1,8 @@
-package com.vnpay.demo1.restapi;
+package com.vnpay.demo1.controller;
 
 import com.vnpay.demo1.dto.BankRequest;
 import com.vnpay.demo1.dto.BankResponse;
-import com.vnpay.demo1.module.BankCheck;
+import com.vnpay.demo1.model.BankCheck;
 import com.vnpay.demo1.service.BankService;
 import com.vnpay.demo1.util.ResponseCode;
 import com.vnpay.demo1.util.ResponseMessage;

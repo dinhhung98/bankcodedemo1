@@ -1,4 +1,4 @@
-package com.vnpay.demo1.module;
+package com.vnpay.demo1.model;
 
 import lombok.Data;
 

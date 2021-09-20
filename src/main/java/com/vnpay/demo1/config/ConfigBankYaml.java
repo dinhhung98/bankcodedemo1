@@ -1,6 +1,6 @@
 package com.vnpay.demo1.config;
 
-import com.vnpay.demo1.module.Bank;
+import com.vnpay.demo1.model.Bank;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
