@@ -9,3 +9,48 @@
 [INFO ] 2021-09-20 16:24:41.969 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 [INFO ] 2021-09-20 16:24:45.931 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 [INFO ] 2021-09-20 16:24:45.932 [] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2021-09-22 09:38:47.921 [] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-09-22 09:38:47.921 [] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-09-22 09:38:48.446 [] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-09-22 09:38:48.447 [] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 2021-09-22 09:38:48.464 [] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO ] 2021-09-22 09:38:48.817 [] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-09-22 09:38:48.884 [] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 962 ms
+[INFO ] 2021-09-22 09:38:49.356 [] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-09-22 09:38:49.376 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-09-22 09:39:40.168 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-09-22 09:39:40.169 [] DispatcherServlet - Completed initialization in 1 ms
+[WARN ] 2021-09-22 09:39:59.287 [] ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vnpay.demo1.dto.BankResponse> com.vnpay.demo1.controller.BankControler.getReponse(com.vnpay.demo1.dto.BankRequest) throws java.text.ParseException: [Field error in object 'bankRequest' on field 'bankCode': rejected value []; codes [NotBlank.bankRequest.bankCode,NotBlank.bankCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bankRequest.bankCode,bankCode]; arguments []; default message [bankCode]]; default message [must not be blank]] ]
+[INFO ] 2021-09-27 15:25:56.725 [] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-09-27 15:25:56.725 [] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-09-27 15:25:57.128 [] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-09-27 15:25:57.128 [] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 2021-09-27 15:25:57.146 [] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO ] 2021-09-27 15:25:57.470 [] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-09-27 15:25:57.507 [] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 782 ms
+[INFO ] 2021-09-27 15:25:57.908 [] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-09-27 15:25:57.918 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-09-27 15:26:25.894 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-09-27 15:26:25.895 [] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2021-09-28 10:29:29.052 [] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-09-28 10:29:29.053 [] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-09-28 10:29:29.489 [] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-09-28 10:29:29.491 [] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 2021-09-28 10:29:29.503 [] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO ] 2021-09-28 10:29:29.788 [] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-09-28 10:29:29.840 [] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 787 ms
+[INFO ] 2021-09-28 10:29:30.245 [] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-09-28 10:29:30.264 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-09-28 10:29:36.607 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-09-28 10:29:36.607 [] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2021-09-28 11:37:06.678 [] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-09-28 11:37:06.678 [] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-09-28 11:37:07.066 [] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-09-28 11:37:07.066 [] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 2021-09-28 11:37:07.074 [] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO ] 2021-09-28 11:37:07.367 [] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-09-28 11:37:07.420 [] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 742 ms
+[INFO ] 2021-09-28 11:37:07.783 [] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-09-28 11:37:07.805 [] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-09-28 11:37:11.530 [] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-09-28 11:37:11.531 [] DispatcherServlet - Completed initialization in 1 ms

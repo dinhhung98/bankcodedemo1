@@ -7,6 +7,7 @@ public class Bank {
     private String bankCode;
     private String privateKey;
     private String ips;
+    private String status;
 
     @Override
     public String toString() {
@@ -14,6 +15,7 @@ public class Bank {
                 "bankCode='" + bankCode + '\'' +
                 ", privateKey='" + privateKey + '\'' +
                 ", ips='" + ips + '\'' +
+                ", status='" + status + '\'' +
                 '}';
     }
 }
