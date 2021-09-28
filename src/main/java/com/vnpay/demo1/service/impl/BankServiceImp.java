@@ -1,10 +1,11 @@
-package com.vnpay.demo1.service;
+package com.vnpay.demo1.service.impl;
 
 import com.google.common.hash.Hashing;
 import com.vnpay.demo1.config.ConfigBankYaml;
 import com.vnpay.demo1.dto.BankRequest;
 import com.vnpay.demo1.dto.BankResponse;
 import com.vnpay.demo1.model.Bank;
+import com.vnpay.demo1.service.BankService;
 import com.vnpay.demo1.util.ResponseCode;
 import com.vnpay.demo1.util.ResponseMessage;
 import org.apache.logging.log4j.LogManager;
@@ -22,7 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 @Service
-public class BankServiceImp implements BankService{
+public class BankServiceImp implements BankService {
     @Autowired
     private ConfigBankYaml bankYaml;
     @Autowired

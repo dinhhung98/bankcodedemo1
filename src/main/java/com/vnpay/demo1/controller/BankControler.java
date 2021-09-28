@@ -2,7 +2,7 @@ package com.vnpay.demo1.controller;
 
 import com.vnpay.demo1.dto.BankRequest;
 import com.vnpay.demo1.dto.BankResponse;
-import com.vnpay.demo1.service.BankServiceImp;
+import com.vnpay.demo1.service.impl.BankServiceImp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
